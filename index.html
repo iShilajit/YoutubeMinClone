@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/c42225a8/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/c42225a8/img/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/c42225a8/img/favicon_48x48.png" sizes="48x48">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/c42225a8/img/favicon_96x96.png" sizes="96x96">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/c42225a8/img/favicon_144x144.png" sizes="144x144">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./style/index.css">
+    <title>YouTube</title>
+</head>
+
+<body>
+    <header class="navbar">
+        <a href="#">
+            <i id="menu" class="material-icons">menu</i>
+        </a>
+        <a href="#">
+            <img src="./assets/logo.png" alt="ytlogo" class="ytlogo" />
+        </a>
+
+        <div class="searchbar">
+            <input id="search-input" type="search" placeholder="Search" aria-label="Search" />
+            <div >
+                <button type="submit" class="search-btn" onclick="searchVideos()">
+
+                    <img src="./assets/magnify.svg" />
+                    
+                </button>
+                
+            </div>
+            <i class="material-icons mic   ">mic</i>
+           
+
+        </div>
+
+      
+
+        <div class="menu-icons">
+            <a href="#">
+                <img src="./assets/video-plus.svg" alt="Upload Video" />
+            </a>
+            <a href="#">
+                <img src="./assets/apps.svg" alt="Apps" />
+
+            </a>
+            <a href="#">
+                <img src="./assets/bell.svg" alt="notifications">
+            </a>
+            <a href="#">
+                <img class="channel_icon"
+                    src="https://yt3.ggpht.com/yti/APfAmoHDBXsOxUDYBKyaaJr75tQH5ZT7KOuK1O6ihHZ3BQ=s88-c-k-c0x00ffffff-no-rj-mo"
+                    alt="my channel">
+            </a>
+        </div>
+    </header>
+
+
+    <div id="hold">
+        <div class="side-bar">
+            <a href="#" class="baritems active"><img src="assets/home.PNG" alt="">home</a>
+            <a href="#" class="baritems"><img src="assets/explore.PNG" alt="">explore</a>
+            <a href="#" class="baritems"><img src="assets/subscription.PNG" alt="">subscription</a>
+            <hr class="seperator">
+            <a href="#" class="baritems"><img src="assets/library.PNG" alt="">library</a>
+            <a href="#" class="baritems"><img src="assets/history.PNG" alt="">history</a>
+            <a href="#" class="baritems"><img src="assets/your-video.PNG" alt="">your video</a>
+            <a href="#" class="baritems"><img src="assets/watch-later.PNG" alt="">watch leater</a>
+            <a href="#" class="baritems"><img src="assets/liked video.PNG" alt="">like video</a>
+            <a href="#" class="baritems"><img src="assets/show more.PNG" alt="">show more</a>
+        </div>
+        <div class="search_results">
+            
+        </div> 
+    </div>
+   
+</body>
+
+</html>
+
+<script src="./script/index.js"></script>
